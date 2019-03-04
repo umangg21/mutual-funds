@@ -45,17 +45,17 @@ export class FundView extends React.Component<IFundViewProps, IFundViewStates> {
 
                     </div>
                     <div className="layout-row flex-50" style={Styles.grid}>
-                        <div className="layout-column flex-30">
+                        <div className="layout-column flex-40">
                             <span style={Styles.CardSemiTitle} >{`1yr returns`}</span>
                             <span style={oneYearReturnClass}>{oneYearReturnValue}</span>
                         </div>
 
-                        <div className="layout-column flex-30">
+                        <div className="layout-column flex-40">
                             <span style={Styles.CardSemiTitle}  >{`AUM`}</span>
                             <span style={Styles.CardData}>{`₹${this.props.fund.aum} Cr`}</span>
                         </div>
 
-                        <div className="layout-column flex-30">
+                        <div className="layout-column flex-20">
                             <span style={Styles.CardSemiTitle} >{`Expense Ratio`}</span>
                             <span style={Styles.CardData}>{`${this.props.fund.expenseRatio}%`}</span>
                         </div>
