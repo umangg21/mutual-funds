@@ -1,17 +1,16 @@
-# Findind Falcone APP
+# Mutual Fund APP
 
-Finding Falcone APP is developed using React with TypeScript. This a responsive app.
+Mutual Fund APP is developed using React with TypeScript. This a responsive app.
 
 # Link 
 
-Finding Falcone APP is also live on the following Link: https://umangg21.github.io/finding-falcone/
+Mutual Fund APP is also live on the following Link: https://umangg21.github.io/mutual-funds/
 
 # Use Case:
 
-Finding Falcone App is a Solution to GeekTrust UI Problem. Link [https://www.geektrust.in/coding-problem/frontend/space](https://www.geektrust.in/coding-problem/frontend/space). 
+Mutual Fund App is use to display Rating, 1 year returns, AUM, Expense Ratio of various funds. 
 
 This app is developed in React with Typescript.
-Unit Test are written using jest and enzyme(Having code coverge > 85%).
 
 # How to run app locally:
 
