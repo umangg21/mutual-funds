@@ -1,0 +1,58 @@
+{
+  "name": "mutual-funds",
+  "version": "0.1.0",
+  "homepage": "http://umangg21.github.io/mutual-funds",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "23.3.13",
+    "@types/node": "10.12.18",
+    "@types/react": "16.7.20",
+    "@types/react-dom": "16.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-test-renderer": "^16.0.3",
+    "angular-material": "^1.1.12",
+    "emotion": "^10.0.6",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "fetch": "^1.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-infinite-loader": "^1.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "react-star-ratings": "^2.3.0",
+    "react-test-renderer": "^16.7.0",
+    "typescript": "3.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "coverage": "npm test -- --coverage",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{tsx}",
+      "!src/index.tsx"
+    ]
+  }
+}
