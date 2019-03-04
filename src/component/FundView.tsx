@@ -29,10 +29,10 @@ export class FundView extends React.Component<IFundViewProps, IFundViewStates> {
                 <Card style={Styles.CardView} className="layout-column">
                     {/* <div className="layout-column"> */}
                     <div className="layout-row  layout-xs-column flex-50">
-                        <div className="flex-70 flex-auto">
+                        <div className="flex-auto flex-auto">
                             <span style={Styles.CardName} >{this.props.fund.name}</span>
                         </div>
-                        <div className="flex-auto layout-row layout-align-center-start">
+                        <div className="flex-noshrink layout-row layout-align-center-start">
                             <StarRatings
                                 rating={rating}
                                 starRatedColor="orange"
@@ -45,17 +45,17 @@ export class FundView extends React.Component<IFundViewProps, IFundViewStates> {
 
                     </div>
                     <div className="layout-row flex-50" style={Styles.grid}>
-                        <div className="layout-column flex-35">
+                        <div className="layout-column flex-30">
                             <span style={Styles.CardSemiTitle} >{`1yr returns`}</span>
                             <span style={oneYearReturnClass}>{oneYearReturnValue}</span>
                         </div>
 
-                        <div className="layout-column flex-35">
+                        <div className="layout-column flex-30">
                             <span style={Styles.CardSemiTitle}  >{`AUM`}</span>
                             <span style={Styles.CardData}>{`₹${this.props.fund.aum} Cr`}</span>
                         </div>
 
-                        <div className="layout-column flex-35">
+                        <div className="layout-column flex-30">
                             <span style={Styles.CardSemiTitle} >{`Expense Ratio`}</span>
                             <span style={Styles.CardData}>{`${this.props.fund.expenseRatio}%`}</span>
                         </div>
