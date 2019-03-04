@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mutual-funds/precache-manifest.e93ae66f8dc471eb510c2b46b74acbc2.js"
+  "/mutual-funds/precache-manifest.8ed0c55b6b5131b0645fe877bb946ee4.js"
 );
 
 workbox.clientsClaim();
