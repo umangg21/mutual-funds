@@ -1,3 +1,5 @@
+const MutualFundData = require('../contract/testData.json')
+
 
 function getRequestUrl(offset: number) {
     return `https://dev.indiawealth.in/api/v2/funds/getList/?limit=16&offset=${offset}`;
@@ -15,5 +17,11 @@ export class IndWealth {
                     "Authorization": AuthToken
                 }
             })
+    };
+
+    static async getMutualFundsOffline(offset: number): Promise<Response> {
+        let mutualFundData = {...MutualFundData}
+        mutualFundData.data = mutualFundData.data.slice(offset, offset + 16)
+        return Promise.resolve(mutualFundData);
     };
 }

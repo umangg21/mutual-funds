@@ -32,9 +32,9 @@ export class Home extends React.Component<IHomeProps, IHomeStates> {
     getFunds = () => {
         let offset = this.state.fundData.data!.length
 
-        IndWealth.getMutualFunds(offset)
+        IndWealth.getMutualFundsOffline(offset)
             .then((response) => {
-                return response.json();
+                return response
             })
             .then((myJson: any) => {
                 let newList = this.state.fundData.data!.concat(myJson.data)
@@ -42,7 +42,7 @@ export class Home extends React.Component<IHomeProps, IHomeStates> {
                 this.setState({ fundData: myJson, viewState: ViewState.Result })
             })
             .catch((error: any) => {
-
+                console.log(error);
             })
     }
 
