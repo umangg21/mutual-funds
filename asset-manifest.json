@@ -1,11 +1,11 @@
 {
-  "main.js": "/mutual-funds/static/js/main.f589e3a0.chunk.js",
-  "main.js.map": "/mutual-funds/static/js/main.f589e3a0.chunk.js.map",
+  "main.js": "/mutual-funds/static/js/main.dd6e45eb.chunk.js",
+  "main.js.map": "/mutual-funds/static/js/main.dd6e45eb.chunk.js.map",
   "runtime~main.js": "/mutual-funds/static/js/runtime~main.0bc4e79f.js",
   "runtime~main.js.map": "/mutual-funds/static/js/runtime~main.0bc4e79f.js.map",
-  "static/js/2.19a41cc2.chunk.js": "/mutual-funds/static/js/2.19a41cc2.chunk.js",
-  "static/js/2.19a41cc2.chunk.js.map": "/mutual-funds/static/js/2.19a41cc2.chunk.js.map",
+  "static/js/2.aaff9d90.chunk.js": "/mutual-funds/static/js/2.aaff9d90.chunk.js",
+  "static/js/2.aaff9d90.chunk.js.map": "/mutual-funds/static/js/2.aaff9d90.chunk.js.map",
   "index.html": "/mutual-funds/index.html",
-  "precache-manifest.8ed0c55b6b5131b0645fe877bb946ee4.js": "/mutual-funds/precache-manifest.8ed0c55b6b5131b0645fe877bb946ee4.js",
+  "precache-manifest.54e178e23a8832561a37b2b4da74ca0a.js": "/mutual-funds/precache-manifest.54e178e23a8832561a37b2b4da74ca0a.js",
   "service-worker.js": "/mutual-funds/service-worker.js"
 }
